@@ -38,6 +38,6 @@ int main(int , const char **) {
   visitor.visit(tree);
   myTree.toFile();
   myTree.showTree();
-  //system("cd .. && g++ -o rez rez.cpp Longs.h Longs.cpp");
+  system("g++ -o rez /home/tima/Gleb/rez.cpp");
   return 0;
 }

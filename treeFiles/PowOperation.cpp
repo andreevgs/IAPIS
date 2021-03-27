@@ -33,9 +33,9 @@ bool PowOperation::checkOperation() {
 void PowOperation::ToString(std::string & str) {
     str += operands[0];
     str += " ";
-    str += operat[0];
-    str += " ";
     if(operat[0] == "="){
+        str += operat[0];
+        str += " ";
         str += "pow(";
         if(operands[1] == "OP"){
             next[0]->ToString(str);
@@ -57,6 +57,8 @@ void PowOperation::ToString(std::string & str) {
         }
         str += ")";
     }else{
+        str += "=";
+        str += " ";
         str += "pow(";
         str += operands[0];
         str += ",";

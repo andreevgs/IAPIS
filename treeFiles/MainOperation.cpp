@@ -13,7 +13,7 @@ bool MainOperation::checkOperation() {
 }
 
 void MainOperation::ToString(std::string& str) {
-    str +="#include <iostream>\n#include <cmath>\n#include\"Longs.h\"\n\nusing namespace std;\n\nint main(){\n";
+    str +="#include <iostream>\n#include <cmath>\n\nusing namespace std;\n\nint main(){\n";
     Element::ToString(str);
     str += "return 0;\n}";
 }
