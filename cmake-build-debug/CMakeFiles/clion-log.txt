@@ -1,0 +1,10 @@
+/snap/clion/145/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/tima/Gleb
+/home/tima/Gleb/GlebLexer.g4
+/home/tima/Gleb/GlebParser.g4
+/home/tima/Gleb
+/home/tima/Gleb
+/home/tima/Gleb/GlebLexer.h/home/tima/Gleb/GlebLexer.cpp
+/home/tima/Gleb/GlebParser.h/home/tima/Gleb/GlebParser.cpp/home/tima/Gleb/GlebParserBaseVisitor.h/home/tima/Gleb/GlebParserBaseVisitor.cpp/home/tima/Gleb/GlebParserVisitor.h/home/tima/Gleb/GlebParserVisitor.cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tima/Gleb/cmake-build-debug

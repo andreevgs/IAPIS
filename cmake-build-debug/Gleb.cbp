@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Gleb"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\antlr4_runtime\;CMake Files\cmake-build-debug\antlr4_runtime\tmp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tima/Gleb/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tima/Gleb/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="antlr4_runtime">
+				<Option working_dir="/home/tima/Gleb/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 antlr4_runtime"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tima/Gleb/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="antlr4_runtime-build_static">
+				<Option working_dir="/home/tima/Gleb/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 antlr4_runtime-build_static"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="antlr4_runtime-build_shared">
+				<Option working_dir="/home/tima/Gleb/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 antlr4_runtime-build_shared"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Gleb">
+				<Option output="/home/tima/Gleb/cmake-build-debug/Gleb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tima/Gleb/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DANTLR4CPP_STATIC"/>
+					<Add directory="/home/tima/Gleb/cmake-build-debug/antlr4_runtime/src/antlr4_runtime/runtime/Cpp/runtime/src"/>
+					<Add directory="/home/tima/Gleb"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gleb"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Gleb/fast">
+				<Option output="/home/tima/Gleb/cmake-build-debug/Gleb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tima/Gleb/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DANTLR4CPP_STATIC"/>
+					<Add directory="/home/tima/Gleb/cmake-build-debug/antlr4_runtime/src/antlr4_runtime/runtime/Cpp/runtime/src"/>
+					<Add directory="/home/tima/Gleb"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gleb/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tima/Gleb/GlebLexer.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/GlebLexer.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/GlebLexer.interp.rule">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/GlebParser.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/GlebParser.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/GlebParser.interp.rule">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/GlebParserBaseVisitor.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/GlebParserBaseVisitor.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/GlebParserVisitor.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/GlebParserVisitor.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/GlebVisitor.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/GlebVisitor.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/Tree.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/Tree.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/main.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/AssignOperation.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/AssignOperation.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/BlockExpr.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/BlockExpr.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/CreateOperation.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/CreateOperation.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/Devide.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/Devide.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/Diff.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/Diff.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/DiffOperation.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/DiffOperation.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/DivOperation.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/DivOperation.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/Element.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/Element.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/ForExpr.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/ForExpr.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/IfExpr.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/IfExpr.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/MainOperation.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/MainOperation.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/Mult.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/Mult.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/MultOperation.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/MultOperation.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/Pow.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/Pow.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/PowOperation.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/PowOperation.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/SqrtOperation.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/SqrtOperation.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/Summ.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/Summ.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/SummOperation.cpp">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/treeFiles/SummOperation.h">
+			<Option target="Gleb"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/cmake/ExternalAntlr4Cpp.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/cmake/FindANTLR.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/tima/Gleb/cmake-build-debug/antlr4_runtime/tmp/antlr4_runtime-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\antlr4_runtime\tmp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
