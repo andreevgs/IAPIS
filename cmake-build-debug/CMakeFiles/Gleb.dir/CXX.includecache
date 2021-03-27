@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/tima/Gleb/treeFiles/Devide.cpp
+Devide.h
+/home/tima/Gleb/treeFiles/Devide.h
+
+/home/tima/Gleb/treeFiles/Devide.h
+MainOperation.h
+/home/tima/Gleb/treeFiles/MainOperation.h
+
+/home/tima/Gleb/treeFiles/Diff.cpp
+Diff.h
+/home/tima/Gleb/treeFiles/Diff.h
+
+/home/tima/Gleb/treeFiles/Diff.h
+MainOperation.h
+/home/tima/Gleb/treeFiles/MainOperation.h
+
 /home/tima/Gleb/treeFiles/Element.h
 vector
 -
@@ -20,11 +36,27 @@ map
 Element.h
 /home/tima/Gleb/treeFiles/Element.h
 
-/home/tima/Gleb/treeFiles/PowOperation.cpp
-PowOperation.h
-/home/tima/Gleb/treeFiles/PowOperation.h
+/home/tima/Gleb/treeFiles/Mult.cpp
+Mult.h
+/home/tima/Gleb/treeFiles/Mult.h
 
-/home/tima/Gleb/treeFiles/PowOperation.h
+/home/tima/Gleb/treeFiles/Mult.h
+MainOperation.h
+/home/tima/Gleb/treeFiles/MainOperation.h
+
+/home/tima/Gleb/treeFiles/Pow.cpp
+Pow.h
+/home/tima/Gleb/treeFiles/Pow.h
+
+/home/tima/Gleb/treeFiles/Pow.h
+MainOperation.h
+/home/tima/Gleb/treeFiles/MainOperation.h
+
+/home/tima/Gleb/treeFiles/Summ.cpp
+Summ.h
+/home/tima/Gleb/treeFiles/Summ.h
+
+/home/tima/Gleb/treeFiles/Summ.h
 MainOperation.h
 /home/tima/Gleb/treeFiles/MainOperation.h
 

@@ -12,7 +12,7 @@ bool Pow::ParseOperation(std::vector<std::string>tok) {
     operands.push_back(tok[4]);
     for(auto i : operands){
         size_t found = i.find_first_not_of("0123456789-");
-        if(found != std::string::npos && i != "OP"){
+        if(found != std::string::npos && i != "OP"&& i!= "(" && i != ")"){
             var.push_back(i);
         }
     }

@@ -137,7 +137,7 @@ void Tree::addElement(std::vector<std::string> tok,int level) {
         newElement->SetParent(current);
         current->AddNext(newElement);
         newElement->setID(count);
-        /*try{
+        try{
             std::vector<std::string> temp = newElement->getVariable();
             std::map<std::string,std::string>types;
             root->checkVariable(temp,newElement->getLevel(),types,newElement->getID());
@@ -156,7 +156,7 @@ void Tree::addElement(std::vector<std::string> tok,int level) {
         }catch(std::string str){
             std::cout << str;
             exit(1);
-        }*/
+        }
 
     }else{
         root = newElement;
