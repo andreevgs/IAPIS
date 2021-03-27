@@ -83,7 +83,7 @@ antlrcpp::Any GlebVisitor::visitDiv(GlebParser::DivContext *ctx) {
 
 antlrcpp::Any GlebVisitor::visitInPow(GlebParser::InPowContext *ctx){
     level++;
-    Tokens.emplace_back("impow");
+    Tokens.emplace_back("inpow");
     for(auto i : ctx->children){
         if(i->toString()[0] == '['){
             Tokens.emplace_back("OP");
@@ -273,7 +273,7 @@ antlrcpp::Any GlebVisitor::visitDivOperation(GlebParser::DivOperationContext *ct
 
 antlrcpp::Any GlebVisitor::visitInPowOperation(GlebParser::InPowOperationContext *ctx) {
     level++;
-    Tokens.emplace_back("powOp");
+    Tokens.emplace_back("inpowOp");
     for(auto i : ctx->children){
         if(i->toString()[0] == '['){
             Tokens.emplace_back("OP");

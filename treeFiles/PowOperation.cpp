@@ -68,29 +68,6 @@ void PowOperation::ToString(std::string & str) {
         str += ")";
     }
     str += ";\n";
-
-
-    str += operands[0];
-    if(operat[0] == "="){
-        str += " ";
-        str += "=";
-        str += " ";
-        str += "pow(";
-        str += operands[1];
-        str += ",";
-        str += operands[3];
-        str += ")";
-    }else{
-        str += " ";
-        str += "=";
-        str += " ";
-        str += "pow(";
-        str += operands[0];
-        str += ",";
-        str += operands[1];
-        str += ")";
-    }
-    str += ";\n";
 }
 
 void PowOperation::show() {
