@@ -10,7 +10,7 @@ bool AssignOperation::ParseOperation(std::vector<std::string> tok) {
     operands.push_back(tok[2]);
     for(auto i : operands){
         size_t found = i.find_first_not_of("0123456789-");
-        if(found != std::string::npos){
+        if(found != std::string::npos && i != "OP"){
             var.push_back(i);
         }
     }
@@ -27,7 +27,11 @@ void AssignOperation::ToString(std::string &str) {
     str += " ";
     str += operat;
     str += " ";
-    str += operands[1];
+    if(operands[1] == "OP"){
+        next[0]->ToString(str);
+    }else{
+        str += operands[1];
+    }
     str += ";\n";
 }
 
