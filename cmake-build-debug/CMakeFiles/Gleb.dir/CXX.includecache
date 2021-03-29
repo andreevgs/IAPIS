@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/tima/Gleb/treeFiles/CreateOperation.cpp
-CreateOperation.h
-/home/tima/Gleb/treeFiles/CreateOperation.h
+/home/tima/Gleb/treeFiles/AssignOperation.cpp
+AssignOperation.h
+/home/tima/Gleb/treeFiles/AssignOperation.h
 
-/home/tima/Gleb/treeFiles/CreateOperation.h
+/home/tima/Gleb/treeFiles/AssignOperation.h
 MainOperation.h
 /home/tima/Gleb/treeFiles/MainOperation.h
 

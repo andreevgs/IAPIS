@@ -52,7 +52,7 @@ void SummOperation::ToString(std::string & str) {
                 next[0]->ToString(str);
             }
         }else{
-            str += operands[1];
+            str += operands[2];
         }
     }else{
         if(operands[1] == "OP"){

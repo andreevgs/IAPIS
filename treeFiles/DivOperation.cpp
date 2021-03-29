@@ -59,7 +59,7 @@ void DivOperation::ToString(std::string & str) {
         if(operands[1] == "OP"){
             next[0]->ToString(str);
         }else{
-            str += operands[1];
+            str += operands[2];
         }
     }
     str += ";\n";
