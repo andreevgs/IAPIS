@@ -35,15 +35,6 @@ bool CreateOperation::checkOperation() {
                 throw str;
             }
         }
-        if(type == "Long"){
-            for(auto i : value){
-                if(i == '.'){
-                    std::string str;
-                    str = "Error 6 : trying set long var float value;";
-                    throw str;
-                }
-            }
-        }
     }catch(std::string str){
         std::cout << str;
         exit(1);
@@ -56,8 +47,6 @@ void CreateOperation::ToString(std::string &str) {
         str += "int";
     }else if(type == "FLT"){
         str += "float";
-    }else if(type == "Long"){
-        str += "Longs";
     }
     str += " ";
     str += var[0];

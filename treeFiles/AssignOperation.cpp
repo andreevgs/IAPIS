@@ -19,15 +19,6 @@ bool AssignOperation::ParseOperation(std::vector<std::string> tok) {
 }
 
 bool AssignOperation::checkOperation() {
-    try {
-        size_t found = operands[0].find_first_not_of("0123456789-");
-        if (found == std::string::npos) {
-            throw(operands[0]);
-        }
-    }catch(int a){
-        std::cout << "Error 3 : trying to assigning value to number : " << a;
-        exit(1);
-    }
     return true;
 }
 
