@@ -24,15 +24,15 @@ bool Pow::checkOperation() {
 }
 
 void Pow::ToString(std::string &str) {
+
     str += operands[0];
-    if(operands[0] != "OP"){
+    str += "pow(";
+    if(operands[1] != "OP"){
         str += operands[1];
     }else{
         next[0]->ToString(str);
     }
-    str += " ";
-    str += operat[0];
-    str += " ";
+    str += ",";
     if(operands[2] != "OP"){
         str += operands[2];
     }else{
@@ -42,6 +42,7 @@ void Pow::ToString(std::string &str) {
             next[0]->ToString(str);
         }
     }
+    str += ");\n";
     str += operands[3];
 }
 

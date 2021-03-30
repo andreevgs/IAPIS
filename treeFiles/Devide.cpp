@@ -25,7 +25,7 @@ bool Devide::checkOperation() {
 
 void Devide::ToString(std::string &str) {
     str += operands[0];
-    if(operands[0] != "OP"){
+    if(operands[1] != "OP"){
         str += operands[1];
     }else{
         next[0]->ToString(str);
