@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/tima/Gleb/cmake-build-debug/CMakeFiles/antlr4_runtime"
+			"file" : "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/antlr4_runtime"
 		},
 		{
-			"file" : "/home/tima/Gleb/cmake-build-debug/CMakeFiles/antlr4_runtime.rule"
+			"file" : "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/antlr4_runtime.rule"
 		},
 		{
-			"file" : "/home/tima/Gleb/cmake-build-debug/CMakeFiles/antlr4_runtime-complete.rule"
+			"file" : "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/antlr4_runtime-complete.rule"
 		},
 		{
-			"file" : "/home/tima/Gleb/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-install.rule"
+			"file" : "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-install.rule"
 		},
 		{
-			"file" : "/home/tima/Gleb/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-mkdir.rule"
+			"file" : "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-mkdir.rule"
 		},
 		{
-			"file" : "/home/tima/Gleb/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-download.rule"
+			"file" : "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-download.rule"
 		},
 		{
-			"file" : "/home/tima/Gleb/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-update.rule"
+			"file" : "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-update.rule"
 		},
 		{
-			"file" : "/home/tima/Gleb/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-patch.rule"
+			"file" : "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-patch.rule"
 		},
 		{
-			"file" : "/home/tima/Gleb/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-configure.rule"
+			"file" : "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-configure.rule"
 		},
 		{
-			"file" : "/home/tima/Gleb/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-build.rule"
+			"file" : "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-build.rule"
 		}
 	],
 	"target" : 

@@ -1,5 +1,5 @@
 //
-// Created by tima on 14.03.21.
+// Created by gleb on 14.03.21.
 //
 
 #include "CreateOperation.h"
@@ -86,7 +86,7 @@ void CreateOperation::checkTypes(std::map<std::string, std::string> Types) {
        for(auto i : Types){
            if(var[0] == i.first){
                std::string str = i.first;
-               str = "Error 1488 : var ";
+               str = "Error 3 : var ";
                str += i.first;
                str += " already defined";
                throw(str);

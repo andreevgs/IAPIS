@@ -8,279 +8,277 @@
 		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\antlr4_runtime\;CMake Files\cmake-build-debug\antlr4_runtime\tmp\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/tima/Gleb/cmake-build-debug"/>
+				<Option working_dir="/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/tima/Gleb/cmake-build-debug"/>
+				<Option working_dir="/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="antlr4_runtime">
-				<Option working_dir="/home/tima/Gleb/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 antlr4_runtime"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/tima/Gleb/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="antlr4_runtime-build_static">
-				<Option working_dir="/home/tima/Gleb/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 antlr4_runtime-build_static"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="antlr4_runtime-build_shared">
-				<Option working_dir="/home/tima/Gleb/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 antlr4_runtime-build_shared"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Gleb">
-				<Option output="/home/tima/Gleb/cmake-build-debug/Gleb" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tima/Gleb/cmake-build-debug"/>
+				<Option output="/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Gleb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DANTLR4CPP_STATIC"/>
-					<Add directory="/home/tima/Gleb/cmake-build-debug/antlr4_runtime/src/antlr4_runtime/runtime/Cpp/runtime/src"/>
-					<Add directory="/home/tima/Gleb"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/antlr4_runtime/src/antlr4_runtime/runtime/Cpp/runtime/src"/>
+					<Add directory="/Users/glebandreev/Downloads/GlebIapis"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gleb"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gleb"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Gleb/fast">
-				<Option output="/home/tima/Gleb/cmake-build-debug/Gleb" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tima/Gleb/cmake-build-debug"/>
+				<Option output="/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Gleb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DANTLR4CPP_STATIC"/>
-					<Add directory="/home/tima/Gleb/cmake-build-debug/antlr4_runtime/src/antlr4_runtime/runtime/Cpp/runtime/src"/>
-					<Add directory="/home/tima/Gleb"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/antlr4_runtime/src/antlr4_runtime/runtime/Cpp/runtime/src"/>
+					<Add directory="/Users/glebandreev/Downloads/GlebIapis"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gleb/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tima/Gleb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gleb/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="antlr4_runtime-build_shared">
+				<Option working_dir="/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 antlr4_runtime-build_shared"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="antlr4_runtime-build_static">
+				<Option working_dir="/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 antlr4_runtime-build_static"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="antlr4_runtime">
+				<Option working_dir="/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 antlr4_runtime"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tima/Gleb/GlebLexer.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/GlebLexer.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/GlebLexer.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/GlebLexer.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/GlebLexer.interp.rule">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/GlebLexer.interp.rule">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/GlebParser.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/GlebParser.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/GlebParser.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/GlebParser.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/GlebParser.interp.rule">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/GlebParser.interp.rule">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/GlebParserBaseVisitor.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/GlebParserBaseVisitor.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/GlebParserBaseVisitor.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/GlebParserBaseVisitor.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/GlebParserVisitor.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/GlebParserVisitor.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/GlebParserVisitor.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/GlebParserVisitor.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/GlebVisitor.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/GlebVisitor.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/GlebVisitor.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/GlebVisitor.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/Tree.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/Tree.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/Tree.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/Tree.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/main.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/main.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/AssignOperation.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/AssignOperation.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/AssignOperation.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/AssignOperation.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/BlockExpr.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/BlockExpr.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/BlockExpr.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/BlockExpr.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/CreateOperation.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/CreateOperation.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/CreateOperation.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/CreateOperation.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/Devide.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/Devide.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/Devide.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/Devide.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/Diff.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/Diff.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/Diff.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/Diff.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/DiffOperation.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/DiffOperation.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/DiffOperation.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/DiffOperation.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/DivOperation.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/DivOperation.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/DivOperation.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/DivOperation.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/Element.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/Element.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/Element.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/Element.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/ForExpr.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/ForExpr.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/ForExpr.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/ForExpr.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/IfExpr.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/IfExpr.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/IfExpr.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/IfExpr.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/MainOperation.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/MainOperation.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/MainOperation.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/MainOperation.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/Mult.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/Mult.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/Mult.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/Mult.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/MultOperation.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/MultOperation.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/MultOperation.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/MultOperation.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/Pow.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/Pow.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/Pow.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/Pow.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/PowOperation.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/PowOperation.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/PowOperation.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/PowOperation.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/SqrtOperation.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/SqrtOperation.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/SqrtOperation.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/SqrtOperation.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/Summ.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/Summ.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/Summ.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/Summ.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/SummOperation.cpp">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/SummOperation.cpp">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/treeFiles/SummOperation.h">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/treeFiles/SummOperation.h">
 			<Option target="Gleb"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/CMakeLists.txt">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/cmake/ExternalAntlr4Cpp.cmake">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/cmake/ExternalAntlr4Cpp.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/cmake/FindANTLR.cmake">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/cmake/FindANTLR.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/home/tima/Gleb/cmake-build-debug/antlr4_runtime/tmp/antlr4_runtime-cfgcmd.txt.in">
+		<Unit filename="/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/antlr4_runtime/tmp/antlr4_runtime-cfgcmd.txt.in">
 			<Option virtualFolder="CMake Files\cmake-build-debug\antlr4_runtime\tmp\"/>
 		</Unit>
 	</Project>

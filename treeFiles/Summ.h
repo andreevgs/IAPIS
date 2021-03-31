@@ -1,5 +1,5 @@
 //
-// Created by tima on 25.03.21.
+// Created by gleb on 25.03.21.
 //
 
 #ifndef GLEB_SUMM_H

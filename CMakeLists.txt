@@ -19,17 +19,17 @@ include_directories(${ANTLR4_INCLUDE_DIRS})
 
 # set variable pointing to the antlr tool that supports C++
 # this is not required if the jar file can be found under PATH environment
-set(ANTLR_EXECUTABLE /home/tima/Gleb/antlr-4.9.1-complete.jar)
+set(ANTLR_EXECUTABLE /Users/glebandreev/Downloads/GlebIapis/antlr-4.9.1-complete.jar)
 # add macros to generate ANTLR Cpp code from grammar
 find_package(ANTLR REQUIRED)
 
 # Call macro to add lexer and grammar to your build dependencies.
-antlr_target(SampleGrammarLexer /home/tima/Gleb/GlebLexer.g4 LEXER
+antlr_target(SampleGrammarLexer /Users/glebandreev/Downloads/GlebIapis/GlebLexer.g4 LEXER
         PACKAGE antlrcpptest
         )
 
 
-antlr_target(SampleGrammarParser /home/tima/Gleb/GlebParser.g4 PARSER VISITOR
+antlr_target(SampleGrammarParser /Users/glebandreev/Downloads/GlebIapis/GlebParser.g4 PARSER VISITOR
         PACKAGE antlrcpptest
         )
 

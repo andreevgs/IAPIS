@@ -1,6 +1,6 @@
 # Target labels
  antlr4_runtime
 # Source files and their labels
-/home/tima/Gleb/cmake-build-debug/CMakeFiles/antlr4_runtime-build_shared
-/home/tima/Gleb/cmake-build-debug/CMakeFiles/antlr4_runtime-build_shared.rule
-/home/tima/Gleb/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-build_shared.rule
+/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/antlr4_runtime-build_shared
+/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/antlr4_runtime-build_shared.rule
+/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-build_shared.rule

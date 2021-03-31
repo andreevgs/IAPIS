@@ -1,5 +1,5 @@
 //
-// Created by tima on 14.03.21.
+// Created by gleb on 14.03.21.
 //
 
 #ifndef LANG_SUMMOPERATION_H

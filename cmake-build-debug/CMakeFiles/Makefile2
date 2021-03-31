@@ -55,19 +55,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/145/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tima/Gleb
+CMAKE_SOURCE_DIR = /Users/glebandreev/Downloads/GlebIapis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tima/Gleb/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,66 +83,39 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/antlr4_runtime.dir/clean
-clean: CMakeFiles/antlr4_runtime-build_static.dir/clean
-clean: CMakeFiles/antlr4_runtime-build_shared.dir/clean
 clean: CMakeFiles/Gleb.dir/clean
+clean: CMakeFiles/antlr4_runtime-build_shared.dir/clean
+clean: CMakeFiles/antlr4_runtime-build_static.dir/clean
+clean: CMakeFiles/antlr4_runtime.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/antlr4_runtime.dir
+# Target rules for target CMakeFiles/Gleb.dir
 
 # All Build rule for target.
-CMakeFiles/antlr4_runtime.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/antlr4_runtime.dir/build.make CMakeFiles/antlr4_runtime.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/antlr4_runtime.dir/build.make CMakeFiles/antlr4_runtime.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=29,30,31,32,33,34,35,36 "Built target antlr4_runtime"
-.PHONY : CMakeFiles/antlr4_runtime.dir/all
+CMakeFiles/Gleb.dir/all: CMakeFiles/antlr4_runtime-build_static.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Gleb.dir/build.make CMakeFiles/Gleb.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Gleb.dir/build.make CMakeFiles/Gleb.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target Gleb"
+.PHONY : CMakeFiles/Gleb.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/antlr4_runtime.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tima/Gleb/cmake-build-debug/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/antlr4_runtime.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tima/Gleb/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/antlr4_runtime.dir/rule
+CMakeFiles/Gleb.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles 37
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Gleb.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Gleb.dir/rule
 
 # Convenience name for target.
-antlr4_runtime: CMakeFiles/antlr4_runtime.dir/rule
+Gleb: CMakeFiles/Gleb.dir/rule
 
-.PHONY : antlr4_runtime
-
-# clean rule for target.
-CMakeFiles/antlr4_runtime.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/antlr4_runtime.dir/build.make CMakeFiles/antlr4_runtime.dir/clean
-.PHONY : CMakeFiles/antlr4_runtime.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/antlr4_runtime-build_static.dir
-
-# All Build rule for target.
-CMakeFiles/antlr4_runtime-build_static.dir/all: CMakeFiles/antlr4_runtime.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/antlr4_runtime-build_static.dir/build.make CMakeFiles/antlr4_runtime-build_static.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/antlr4_runtime-build_static.dir/build.make CMakeFiles/antlr4_runtime-build_static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=38 "Built target antlr4_runtime-build_static"
-.PHONY : CMakeFiles/antlr4_runtime-build_static.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/antlr4_runtime-build_static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tima/Gleb/cmake-build-debug/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/antlr4_runtime-build_static.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tima/Gleb/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/antlr4_runtime-build_static.dir/rule
-
-# Convenience name for target.
-antlr4_runtime-build_static: CMakeFiles/antlr4_runtime-build_static.dir/rule
-
-.PHONY : antlr4_runtime-build_static
+.PHONY : Gleb
 
 # clean rule for target.
-CMakeFiles/antlr4_runtime-build_static.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/antlr4_runtime-build_static.dir/build.make CMakeFiles/antlr4_runtime-build_static.dir/clean
-.PHONY : CMakeFiles/antlr4_runtime-build_static.dir/clean
+CMakeFiles/Gleb.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Gleb.dir/build.make CMakeFiles/Gleb.dir/clean
+.PHONY : CMakeFiles/Gleb.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/antlr4_runtime-build_shared.dir
@@ -151,14 +124,14 @@ CMakeFiles/antlr4_runtime-build_static.dir/clean:
 CMakeFiles/antlr4_runtime-build_shared.dir/all: CMakeFiles/antlr4_runtime.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/antlr4_runtime-build_shared.dir/build.make CMakeFiles/antlr4_runtime-build_shared.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/antlr4_runtime-build_shared.dir/build.make CMakeFiles/antlr4_runtime-build_shared.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=37 "Built target antlr4_runtime-build_shared"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=37 "Built target antlr4_runtime-build_shared"
 .PHONY : CMakeFiles/antlr4_runtime-build_shared.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/antlr4_runtime-build_shared.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tima/Gleb/cmake-build-debug/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/antlr4_runtime-build_shared.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tima/Gleb/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/antlr4_runtime-build_shared.dir/rule
 
 # Convenience name for target.
@@ -172,31 +145,58 @@ CMakeFiles/antlr4_runtime-build_shared.dir/clean:
 .PHONY : CMakeFiles/antlr4_runtime-build_shared.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Gleb.dir
+# Target rules for target CMakeFiles/antlr4_runtime-build_static.dir
 
 # All Build rule for target.
-CMakeFiles/Gleb.dir/all: CMakeFiles/antlr4_runtime-build_static.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Gleb.dir/build.make CMakeFiles/Gleb.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Gleb.dir/build.make CMakeFiles/Gleb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target Gleb"
-.PHONY : CMakeFiles/Gleb.dir/all
+CMakeFiles/antlr4_runtime-build_static.dir/all: CMakeFiles/antlr4_runtime.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/antlr4_runtime-build_static.dir/build.make CMakeFiles/antlr4_runtime-build_static.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/antlr4_runtime-build_static.dir/build.make CMakeFiles/antlr4_runtime-build_static.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=38 "Built target antlr4_runtime-build_static"
+.PHONY : CMakeFiles/antlr4_runtime-build_static.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Gleb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tima/Gleb/cmake-build-debug/CMakeFiles 37
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Gleb.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tima/Gleb/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Gleb.dir/rule
+CMakeFiles/antlr4_runtime-build_static.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/antlr4_runtime-build_static.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/antlr4_runtime-build_static.dir/rule
 
 # Convenience name for target.
-Gleb: CMakeFiles/Gleb.dir/rule
+antlr4_runtime-build_static: CMakeFiles/antlr4_runtime-build_static.dir/rule
 
-.PHONY : Gleb
+.PHONY : antlr4_runtime-build_static
 
 # clean rule for target.
-CMakeFiles/Gleb.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Gleb.dir/build.make CMakeFiles/Gleb.dir/clean
-.PHONY : CMakeFiles/Gleb.dir/clean
+CMakeFiles/antlr4_runtime-build_static.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/antlr4_runtime-build_static.dir/build.make CMakeFiles/antlr4_runtime-build_static.dir/clean
+.PHONY : CMakeFiles/antlr4_runtime-build_static.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/antlr4_runtime.dir
+
+# All Build rule for target.
+CMakeFiles/antlr4_runtime.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/antlr4_runtime.dir/build.make CMakeFiles/antlr4_runtime.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/antlr4_runtime.dir/build.make CMakeFiles/antlr4_runtime.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=29,30,31,32,33,34,35,36 "Built target antlr4_runtime"
+.PHONY : CMakeFiles/antlr4_runtime.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/antlr4_runtime.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/antlr4_runtime.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/antlr4_runtime.dir/rule
+
+# Convenience name for target.
+antlr4_runtime: CMakeFiles/antlr4_runtime.dir/rule
+
+.PHONY : antlr4_runtime
+
+# clean rule for target.
+CMakeFiles/antlr4_runtime.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/antlr4_runtime.dir/build.make CMakeFiles/antlr4_runtime.dir/clean
+.PHONY : CMakeFiles/antlr4_runtime.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

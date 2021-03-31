@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/145/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tima/Gleb
+CMAKE_SOURCE_DIR = /Users/glebandreev/Downloads/GlebIapis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tima/Gleb/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Gleb.dir/depend.make
@@ -78,8 +78,8 @@ include CMakeFiles/Gleb.dir/progress.make
 include CMakeFiles/Gleb.dir/flags.make
 
 ../GlebLexer.interp: ../GlebLexer.g4
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building SampleGrammarLexer with ANTLR 4.9.1"
-	/usr/bin/java -jar /home/tima/Gleb/antlr-4.9.1-complete.jar /home/tima/Gleb/GlebLexer.g4 -o /home/tima/Gleb -no-listener -Dlanguage=Cpp -package antlrcpptest
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building SampleGrammarLexer with ANTLR 4.9.1"
+	/Users/glebandreev/Library/Java/JavaVirtualMachines/openjdk-15.0.1/Contents/Home/bin/java -jar /Users/glebandreev/Downloads/GlebIapis/antlr-4.9.1-complete.jar /Users/glebandreev/Downloads/GlebIapis/GlebLexer.g4 -o /Users/glebandreev/Downloads/GlebIapis -no-listener -Dlanguage=Cpp -package antlrcpptest
 
 ../GlebLexer.tokens: ../GlebLexer.interp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../GlebLexer.tokens
@@ -91,8 +91,8 @@ include CMakeFiles/Gleb.dir/flags.make
 	@$(CMAKE_COMMAND) -E touch_nocreate ../GlebLexer.cpp
 
 ../GlebParser.interp: ../GlebParser.g4
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building SampleGrammarParser with ANTLR 4.9.1"
-	/usr/bin/java -jar /home/tima/Gleb/antlr-4.9.1-complete.jar /home/tima/Gleb/GlebParser.g4 -o /home/tima/Gleb -no-listener -Dlanguage=Cpp -visitor -package antlrcpptest
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building SampleGrammarParser with ANTLR 4.9.1"
+	/Users/glebandreev/Library/Java/JavaVirtualMachines/openjdk-15.0.1/Contents/Home/bin/java -jar /Users/glebandreev/Downloads/GlebIapis/antlr-4.9.1-complete.jar /Users/glebandreev/Downloads/GlebIapis/GlebParser.g4 -o /Users/glebandreev/Downloads/GlebIapis -no-listener -Dlanguage=Cpp -visitor -package antlrcpptest
 
 ../GlebParser.tokens: ../GlebParser.interp
 	@$(CMAKE_COMMAND) -E touch_nocreate ../GlebParser.tokens
@@ -117,328 +117,328 @@ include CMakeFiles/Gleb.dir/flags.make
 
 CMakeFiles/Gleb.dir/main.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Gleb.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/main.cpp.o -c /home/tima/Gleb/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Gleb.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/main.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/main.cpp
 
 CMakeFiles/Gleb.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/main.cpp > CMakeFiles/Gleb.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/main.cpp > CMakeFiles/Gleb.dir/main.cpp.i
 
 CMakeFiles/Gleb.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/main.cpp -o CMakeFiles/Gleb.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/main.cpp -o CMakeFiles/Gleb.dir/main.cpp.s
 
 CMakeFiles/Gleb.dir/GlebLexer.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/GlebLexer.cpp.o: ../GlebLexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Gleb.dir/GlebLexer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/GlebLexer.cpp.o -c /home/tima/Gleb/GlebLexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Gleb.dir/GlebLexer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/GlebLexer.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/GlebLexer.cpp
 
 CMakeFiles/Gleb.dir/GlebLexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/GlebLexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/GlebLexer.cpp > CMakeFiles/Gleb.dir/GlebLexer.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/GlebLexer.cpp > CMakeFiles/Gleb.dir/GlebLexer.cpp.i
 
 CMakeFiles/Gleb.dir/GlebLexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/GlebLexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/GlebLexer.cpp -o CMakeFiles/Gleb.dir/GlebLexer.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/GlebLexer.cpp -o CMakeFiles/Gleb.dir/GlebLexer.cpp.s
 
 CMakeFiles/Gleb.dir/GlebParser.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/GlebParser.cpp.o: ../GlebParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Gleb.dir/GlebParser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/GlebParser.cpp.o -c /home/tima/Gleb/GlebParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Gleb.dir/GlebParser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/GlebParser.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/GlebParser.cpp
 
 CMakeFiles/Gleb.dir/GlebParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/GlebParser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/GlebParser.cpp > CMakeFiles/Gleb.dir/GlebParser.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/GlebParser.cpp > CMakeFiles/Gleb.dir/GlebParser.cpp.i
 
 CMakeFiles/Gleb.dir/GlebParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/GlebParser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/GlebParser.cpp -o CMakeFiles/Gleb.dir/GlebParser.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/GlebParser.cpp -o CMakeFiles/Gleb.dir/GlebParser.cpp.s
 
 CMakeFiles/Gleb.dir/GlebParserBaseVisitor.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/GlebParserBaseVisitor.cpp.o: ../GlebParserBaseVisitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Gleb.dir/GlebParserBaseVisitor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/GlebParserBaseVisitor.cpp.o -c /home/tima/Gleb/GlebParserBaseVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Gleb.dir/GlebParserBaseVisitor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/GlebParserBaseVisitor.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/GlebParserBaseVisitor.cpp
 
 CMakeFiles/Gleb.dir/GlebParserBaseVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/GlebParserBaseVisitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/GlebParserBaseVisitor.cpp > CMakeFiles/Gleb.dir/GlebParserBaseVisitor.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/GlebParserBaseVisitor.cpp > CMakeFiles/Gleb.dir/GlebParserBaseVisitor.cpp.i
 
 CMakeFiles/Gleb.dir/GlebParserBaseVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/GlebParserBaseVisitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/GlebParserBaseVisitor.cpp -o CMakeFiles/Gleb.dir/GlebParserBaseVisitor.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/GlebParserBaseVisitor.cpp -o CMakeFiles/Gleb.dir/GlebParserBaseVisitor.cpp.s
 
 CMakeFiles/Gleb.dir/GlebParserVisitor.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/GlebParserVisitor.cpp.o: ../GlebParserVisitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Gleb.dir/GlebParserVisitor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/GlebParserVisitor.cpp.o -c /home/tima/Gleb/GlebParserVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Gleb.dir/GlebParserVisitor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/GlebParserVisitor.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/GlebParserVisitor.cpp
 
 CMakeFiles/Gleb.dir/GlebParserVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/GlebParserVisitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/GlebParserVisitor.cpp > CMakeFiles/Gleb.dir/GlebParserVisitor.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/GlebParserVisitor.cpp > CMakeFiles/Gleb.dir/GlebParserVisitor.cpp.i
 
 CMakeFiles/Gleb.dir/GlebParserVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/GlebParserVisitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/GlebParserVisitor.cpp -o CMakeFiles/Gleb.dir/GlebParserVisitor.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/GlebParserVisitor.cpp -o CMakeFiles/Gleb.dir/GlebParserVisitor.cpp.s
 
 CMakeFiles/Gleb.dir/GlebVisitor.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/GlebVisitor.cpp.o: ../GlebVisitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Gleb.dir/GlebVisitor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/GlebVisitor.cpp.o -c /home/tima/Gleb/GlebVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Gleb.dir/GlebVisitor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/GlebVisitor.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/GlebVisitor.cpp
 
 CMakeFiles/Gleb.dir/GlebVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/GlebVisitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/GlebVisitor.cpp > CMakeFiles/Gleb.dir/GlebVisitor.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/GlebVisitor.cpp > CMakeFiles/Gleb.dir/GlebVisitor.cpp.i
 
 CMakeFiles/Gleb.dir/GlebVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/GlebVisitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/GlebVisitor.cpp -o CMakeFiles/Gleb.dir/GlebVisitor.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/GlebVisitor.cpp -o CMakeFiles/Gleb.dir/GlebVisitor.cpp.s
 
 CMakeFiles/Gleb.dir/Tree.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/Tree.cpp.o: ../Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Gleb.dir/Tree.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/Tree.cpp.o -c /home/tima/Gleb/Tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Gleb.dir/Tree.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/Tree.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/Tree.cpp
 
 CMakeFiles/Gleb.dir/Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/Tree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/Tree.cpp > CMakeFiles/Gleb.dir/Tree.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/Tree.cpp > CMakeFiles/Gleb.dir/Tree.cpp.i
 
 CMakeFiles/Gleb.dir/Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/Tree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/Tree.cpp -o CMakeFiles/Gleb.dir/Tree.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/Tree.cpp -o CMakeFiles/Gleb.dir/Tree.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/Element.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/Element.cpp.o: ../treeFiles/Element.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/Element.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/Element.cpp.o -c /home/tima/Gleb/treeFiles/Element.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/Element.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/Element.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/Element.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/Element.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/Element.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/Element.cpp > CMakeFiles/Gleb.dir/treeFiles/Element.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/Element.cpp > CMakeFiles/Gleb.dir/treeFiles/Element.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/Element.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/Element.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/Element.cpp -o CMakeFiles/Gleb.dir/treeFiles/Element.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/Element.cpp -o CMakeFiles/Gleb.dir/treeFiles/Element.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/MainOperation.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/MainOperation.cpp.o: ../treeFiles/MainOperation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/MainOperation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/MainOperation.cpp.o -c /home/tima/Gleb/treeFiles/MainOperation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/MainOperation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/MainOperation.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/MainOperation.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/MainOperation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/MainOperation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/MainOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/MainOperation.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/MainOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/MainOperation.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/MainOperation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/MainOperation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/MainOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/MainOperation.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/MainOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/MainOperation.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/CreateOperation.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/CreateOperation.cpp.o: ../treeFiles/CreateOperation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/CreateOperation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/CreateOperation.cpp.o -c /home/tima/Gleb/treeFiles/CreateOperation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/CreateOperation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/CreateOperation.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/CreateOperation.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/CreateOperation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/CreateOperation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/CreateOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/CreateOperation.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/CreateOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/CreateOperation.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/CreateOperation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/CreateOperation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/CreateOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/CreateOperation.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/CreateOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/CreateOperation.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/SummOperation.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/SummOperation.cpp.o: ../treeFiles/SummOperation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/SummOperation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/SummOperation.cpp.o -c /home/tima/Gleb/treeFiles/SummOperation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/SummOperation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/SummOperation.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/SummOperation.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/SummOperation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/SummOperation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/SummOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/SummOperation.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/SummOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/SummOperation.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/SummOperation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/SummOperation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/SummOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/SummOperation.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/SummOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/SummOperation.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/DiffOperation.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/DiffOperation.cpp.o: ../treeFiles/DiffOperation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/DiffOperation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/DiffOperation.cpp.o -c /home/tima/Gleb/treeFiles/DiffOperation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/DiffOperation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/DiffOperation.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/DiffOperation.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/DiffOperation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/DiffOperation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/DiffOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/DiffOperation.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/DiffOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/DiffOperation.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/DiffOperation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/DiffOperation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/DiffOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/DiffOperation.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/DiffOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/DiffOperation.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/MultOperation.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/MultOperation.cpp.o: ../treeFiles/MultOperation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/MultOperation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/MultOperation.cpp.o -c /home/tima/Gleb/treeFiles/MultOperation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/MultOperation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/MultOperation.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/MultOperation.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/MultOperation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/MultOperation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/MultOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/MultOperation.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/MultOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/MultOperation.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/MultOperation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/MultOperation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/MultOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/MultOperation.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/MultOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/MultOperation.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/DivOperation.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/DivOperation.cpp.o: ../treeFiles/DivOperation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/DivOperation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/DivOperation.cpp.o -c /home/tima/Gleb/treeFiles/DivOperation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/DivOperation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/DivOperation.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/DivOperation.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/DivOperation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/DivOperation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/DivOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/DivOperation.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/DivOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/DivOperation.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/DivOperation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/DivOperation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/DivOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/DivOperation.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/DivOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/DivOperation.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/PowOperation.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/PowOperation.cpp.o: ../treeFiles/PowOperation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/PowOperation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/PowOperation.cpp.o -c /home/tima/Gleb/treeFiles/PowOperation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/PowOperation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/PowOperation.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/PowOperation.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/PowOperation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/PowOperation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/PowOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/PowOperation.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/PowOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/PowOperation.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/PowOperation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/PowOperation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/PowOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/PowOperation.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/PowOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/PowOperation.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/SqrtOperation.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/SqrtOperation.cpp.o: ../treeFiles/SqrtOperation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/SqrtOperation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/SqrtOperation.cpp.o -c /home/tima/Gleb/treeFiles/SqrtOperation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/SqrtOperation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/SqrtOperation.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/SqrtOperation.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/SqrtOperation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/SqrtOperation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/SqrtOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/SqrtOperation.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/SqrtOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/SqrtOperation.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/SqrtOperation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/SqrtOperation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/SqrtOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/SqrtOperation.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/SqrtOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/SqrtOperation.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/AssignOperation.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/AssignOperation.cpp.o: ../treeFiles/AssignOperation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/AssignOperation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/AssignOperation.cpp.o -c /home/tima/Gleb/treeFiles/AssignOperation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/AssignOperation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/AssignOperation.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/AssignOperation.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/AssignOperation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/AssignOperation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/AssignOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/AssignOperation.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/AssignOperation.cpp > CMakeFiles/Gleb.dir/treeFiles/AssignOperation.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/AssignOperation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/AssignOperation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/AssignOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/AssignOperation.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/AssignOperation.cpp -o CMakeFiles/Gleb.dir/treeFiles/AssignOperation.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/ForExpr.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/ForExpr.cpp.o: ../treeFiles/ForExpr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/ForExpr.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/ForExpr.cpp.o -c /home/tima/Gleb/treeFiles/ForExpr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/ForExpr.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/ForExpr.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/ForExpr.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/ForExpr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/ForExpr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/ForExpr.cpp > CMakeFiles/Gleb.dir/treeFiles/ForExpr.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/ForExpr.cpp > CMakeFiles/Gleb.dir/treeFiles/ForExpr.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/ForExpr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/ForExpr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/ForExpr.cpp -o CMakeFiles/Gleb.dir/treeFiles/ForExpr.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/ForExpr.cpp -o CMakeFiles/Gleb.dir/treeFiles/ForExpr.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/IfExpr.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/IfExpr.cpp.o: ../treeFiles/IfExpr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/IfExpr.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/IfExpr.cpp.o -c /home/tima/Gleb/treeFiles/IfExpr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/IfExpr.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/IfExpr.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/IfExpr.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/IfExpr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/IfExpr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/IfExpr.cpp > CMakeFiles/Gleb.dir/treeFiles/IfExpr.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/IfExpr.cpp > CMakeFiles/Gleb.dir/treeFiles/IfExpr.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/IfExpr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/IfExpr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/IfExpr.cpp -o CMakeFiles/Gleb.dir/treeFiles/IfExpr.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/IfExpr.cpp -o CMakeFiles/Gleb.dir/treeFiles/IfExpr.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/BlockExpr.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/BlockExpr.cpp.o: ../treeFiles/BlockExpr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/BlockExpr.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/BlockExpr.cpp.o -c /home/tima/Gleb/treeFiles/BlockExpr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/BlockExpr.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/BlockExpr.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/BlockExpr.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/BlockExpr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/BlockExpr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/BlockExpr.cpp > CMakeFiles/Gleb.dir/treeFiles/BlockExpr.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/BlockExpr.cpp > CMakeFiles/Gleb.dir/treeFiles/BlockExpr.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/BlockExpr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/BlockExpr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/BlockExpr.cpp -o CMakeFiles/Gleb.dir/treeFiles/BlockExpr.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/BlockExpr.cpp -o CMakeFiles/Gleb.dir/treeFiles/BlockExpr.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/Summ.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/Summ.cpp.o: ../treeFiles/Summ.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/Summ.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/Summ.cpp.o -c /home/tima/Gleb/treeFiles/Summ.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/Summ.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/Summ.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/Summ.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/Summ.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/Summ.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/Summ.cpp > CMakeFiles/Gleb.dir/treeFiles/Summ.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/Summ.cpp > CMakeFiles/Gleb.dir/treeFiles/Summ.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/Summ.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/Summ.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/Summ.cpp -o CMakeFiles/Gleb.dir/treeFiles/Summ.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/Summ.cpp -o CMakeFiles/Gleb.dir/treeFiles/Summ.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/Diff.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/Diff.cpp.o: ../treeFiles/Diff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/Diff.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/Diff.cpp.o -c /home/tima/Gleb/treeFiles/Diff.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/Diff.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/Diff.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/Diff.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/Diff.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/Diff.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/Diff.cpp > CMakeFiles/Gleb.dir/treeFiles/Diff.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/Diff.cpp > CMakeFiles/Gleb.dir/treeFiles/Diff.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/Diff.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/Diff.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/Diff.cpp -o CMakeFiles/Gleb.dir/treeFiles/Diff.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/Diff.cpp -o CMakeFiles/Gleb.dir/treeFiles/Diff.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/Mult.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/Mult.cpp.o: ../treeFiles/Mult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/Mult.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/Mult.cpp.o -c /home/tima/Gleb/treeFiles/Mult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/Mult.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/Mult.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/Mult.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/Mult.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/Mult.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/Mult.cpp > CMakeFiles/Gleb.dir/treeFiles/Mult.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/Mult.cpp > CMakeFiles/Gleb.dir/treeFiles/Mult.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/Mult.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/Mult.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/Mult.cpp -o CMakeFiles/Gleb.dir/treeFiles/Mult.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/Mult.cpp -o CMakeFiles/Gleb.dir/treeFiles/Mult.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/Devide.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/Devide.cpp.o: ../treeFiles/Devide.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/Devide.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/Devide.cpp.o -c /home/tima/Gleb/treeFiles/Devide.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/Devide.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/Devide.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/Devide.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/Devide.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/Devide.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/Devide.cpp > CMakeFiles/Gleb.dir/treeFiles/Devide.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/Devide.cpp > CMakeFiles/Gleb.dir/treeFiles/Devide.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/Devide.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/Devide.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/Devide.cpp -o CMakeFiles/Gleb.dir/treeFiles/Devide.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/Devide.cpp -o CMakeFiles/Gleb.dir/treeFiles/Devide.cpp.s
 
 CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.o: CMakeFiles/Gleb.dir/flags.make
 CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.o: ../treeFiles/Pow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.o -c /home/tima/Gleb/treeFiles/Pow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.o -c /Users/glebandreev/Downloads/GlebIapis/treeFiles/Pow.cpp
 
 CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tima/Gleb/treeFiles/Pow.cpp > CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/glebandreev/Downloads/GlebIapis/treeFiles/Pow.cpp > CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.i
 
 CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tima/Gleb/treeFiles/Pow.cpp -o CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/glebandreev/Downloads/GlebIapis/treeFiles/Pow.cpp -o CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.s
 
 # Object files for target Gleb
 Gleb_OBJECTS = \
@@ -499,7 +499,7 @@ Gleb: CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.o
 Gleb: CMakeFiles/Gleb.dir/build.make
 Gleb: antlr4_runtime/src/antlr4_runtime/runtime/Cpp/dist/libantlr4-runtime.a
 Gleb: CMakeFiles/Gleb.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable Gleb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable Gleb"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Gleb.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -523,6 +523,6 @@ CMakeFiles/Gleb.dir/depend: ../GlebParserBaseVisitor.h
 CMakeFiles/Gleb.dir/depend: ../GlebParserBaseVisitor.cpp
 CMakeFiles/Gleb.dir/depend: ../GlebParserVisitor.h
 CMakeFiles/Gleb.dir/depend: ../GlebParserVisitor.cpp
-	cd /home/tima/Gleb/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tima/Gleb /home/tima/Gleb /home/tima/Gleb/cmake-build-debug /home/tima/Gleb/cmake-build-debug /home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/glebandreev/Downloads/GlebIapis /Users/glebandreev/Downloads/GlebIapis /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Gleb.dir/depend
 

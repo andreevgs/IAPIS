@@ -1,10 +1,10 @@
 //
-// Created by tima on 14.03.21.
+// Created by gleb on 14.03.21.
 //
 
 #include "Tree.h"
 Tree::Tree() {
-    rez.open("/home/tima/Gleb/rez.cpp");
+    rez.open("/Users/glebandreev/Downloads/GlebIapis/result.cpp");
     root = nullptr;
     count = 0;
 }

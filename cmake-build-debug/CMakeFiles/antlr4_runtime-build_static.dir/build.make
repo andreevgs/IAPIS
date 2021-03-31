@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/145/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tima/Gleb
+CMAKE_SOURCE_DIR = /Users/glebandreev/Downloads/GlebIapis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tima/Gleb/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug
 
 # Utility rule file for antlr4_runtime-build_static.
 
@@ -77,9 +77,9 @@ CMakeFiles/antlr4_runtime-build_static: antlr4_runtime/src/antlr4_runtime-stamp/
 
 
 antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-build_static:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tima/Gleb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Performing build_static step for 'antlr4_runtime'"
-	cd /home/tima/Gleb/cmake-build-debug/antlr4_runtime/src/antlr4_runtime/runtime/Cpp && $(MAKE) antlr4_static
-	cd /home/tima/Gleb/cmake-build-debug/antlr4_runtime/src/antlr4_runtime/runtime/Cpp && /snap/clion/145/bin/cmake/linux/bin/cmake -E touch /home/tima/Gleb/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-build_static
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Performing build_static step for 'antlr4_runtime'"
+	cd /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/antlr4_runtime/src/antlr4_runtime/runtime/Cpp && $(MAKE) antlr4_static
+	cd /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/antlr4_runtime/src/antlr4_runtime/runtime/Cpp && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-build_static
 
 antlr4_runtime-build_static: CMakeFiles/antlr4_runtime-build_static
 antlr4_runtime-build_static: antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-build_static
@@ -97,6 +97,6 @@ CMakeFiles/antlr4_runtime-build_static.dir/clean:
 .PHONY : CMakeFiles/antlr4_runtime-build_static.dir/clean
 
 CMakeFiles/antlr4_runtime-build_static.dir/depend:
-	cd /home/tima/Gleb/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tima/Gleb /home/tima/Gleb /home/tima/Gleb/cmake-build-debug /home/tima/Gleb/cmake-build-debug /home/tima/Gleb/cmake-build-debug/CMakeFiles/antlr4_runtime-build_static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/glebandreev/Downloads/GlebIapis /Users/glebandreev/Downloads/GlebIapis /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug /Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/antlr4_runtime-build_static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/antlr4_runtime-build_static.dir/depend
 

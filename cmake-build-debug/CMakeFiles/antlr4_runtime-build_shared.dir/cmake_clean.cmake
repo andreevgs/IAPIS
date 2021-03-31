@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/antlr4_runtime-build_shared"
   "antlr4_runtime/src/antlr4_runtime-stamp/antlr4_runtime-build_shared"
-  "antlr4_runtime/src/antlr4_runtime/runtime/Cpp/dist/libantlr4-runtime.so"
+  "antlr4_runtime/src/antlr4_runtime/runtime/Cpp/dist/libantlr4-runtime.dylib"
 )
 
 # Per-language clean rules from dependency scanning.

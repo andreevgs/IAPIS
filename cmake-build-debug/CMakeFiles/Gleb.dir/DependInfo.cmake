@@ -4,33 +4,33 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tima/Gleb/GlebLexer.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/GlebLexer.cpp.o"
-  "/home/tima/Gleb/GlebParser.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/GlebParser.cpp.o"
-  "/home/tima/Gleb/GlebParserBaseVisitor.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/GlebParserBaseVisitor.cpp.o"
-  "/home/tima/Gleb/GlebParserVisitor.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/GlebParserVisitor.cpp.o"
-  "/home/tima/Gleb/GlebVisitor.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/GlebVisitor.cpp.o"
-  "/home/tima/Gleb/Tree.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/Tree.cpp.o"
-  "/home/tima/Gleb/main.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/main.cpp.o"
-  "/home/tima/Gleb/treeFiles/AssignOperation.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/AssignOperation.cpp.o"
-  "/home/tima/Gleb/treeFiles/BlockExpr.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/BlockExpr.cpp.o"
-  "/home/tima/Gleb/treeFiles/CreateOperation.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/CreateOperation.cpp.o"
-  "/home/tima/Gleb/treeFiles/Devide.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/Devide.cpp.o"
-  "/home/tima/Gleb/treeFiles/Diff.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/Diff.cpp.o"
-  "/home/tima/Gleb/treeFiles/DiffOperation.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/DiffOperation.cpp.o"
-  "/home/tima/Gleb/treeFiles/DivOperation.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/DivOperation.cpp.o"
-  "/home/tima/Gleb/treeFiles/Element.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/Element.cpp.o"
-  "/home/tima/Gleb/treeFiles/ForExpr.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/ForExpr.cpp.o"
-  "/home/tima/Gleb/treeFiles/IfExpr.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/IfExpr.cpp.o"
-  "/home/tima/Gleb/treeFiles/MainOperation.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/MainOperation.cpp.o"
-  "/home/tima/Gleb/treeFiles/Mult.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/Mult.cpp.o"
-  "/home/tima/Gleb/treeFiles/MultOperation.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/MultOperation.cpp.o"
-  "/home/tima/Gleb/treeFiles/Pow.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.o"
-  "/home/tima/Gleb/treeFiles/PowOperation.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/PowOperation.cpp.o"
-  "/home/tima/Gleb/treeFiles/SqrtOperation.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/SqrtOperation.cpp.o"
-  "/home/tima/Gleb/treeFiles/Summ.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/Summ.cpp.o"
-  "/home/tima/Gleb/treeFiles/SummOperation.cpp" "/home/tima/Gleb/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/SummOperation.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/GlebLexer.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/GlebLexer.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/GlebParser.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/GlebParser.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/GlebParserBaseVisitor.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/GlebParserBaseVisitor.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/GlebParserVisitor.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/GlebParserVisitor.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/GlebVisitor.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/GlebVisitor.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/Tree.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/Tree.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/main.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/main.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/AssignOperation.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/AssignOperation.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/BlockExpr.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/BlockExpr.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/CreateOperation.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/CreateOperation.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/Devide.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/Devide.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/Diff.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/Diff.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/DiffOperation.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/DiffOperation.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/DivOperation.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/DivOperation.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/Element.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/Element.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/ForExpr.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/ForExpr.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/IfExpr.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/IfExpr.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/MainOperation.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/MainOperation.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/Mult.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/Mult.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/MultOperation.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/MultOperation.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/Pow.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/Pow.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/PowOperation.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/PowOperation.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/SqrtOperation.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/SqrtOperation.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/Summ.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/Summ.cpp.o"
+  "/Users/glebandreev/Downloads/GlebIapis/treeFiles/SummOperation.cpp" "/Users/glebandreev/Downloads/GlebIapis/cmake-build-debug/CMakeFiles/Gleb.dir/treeFiles/SummOperation.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
@@ -45,16 +45,16 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Pairs of files generated by the same build rule.
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/home/tima/Gleb/GlebLexer.cpp" "/home/tima/Gleb/GlebLexer.interp"
-  "/home/tima/Gleb/GlebLexer.h" "/home/tima/Gleb/GlebLexer.interp"
-  "/home/tima/Gleb/GlebLexer.tokens" "/home/tima/Gleb/GlebLexer.interp"
-  "/home/tima/Gleb/GlebParser.cpp" "/home/tima/Gleb/GlebParser.interp"
-  "/home/tima/Gleb/GlebParser.h" "/home/tima/Gleb/GlebParser.interp"
-  "/home/tima/Gleb/GlebParser.tokens" "/home/tima/Gleb/GlebParser.interp"
-  "/home/tima/Gleb/GlebParserBaseVisitor.cpp" "/home/tima/Gleb/GlebParser.interp"
-  "/home/tima/Gleb/GlebParserBaseVisitor.h" "/home/tima/Gleb/GlebParser.interp"
-  "/home/tima/Gleb/GlebParserVisitor.cpp" "/home/tima/Gleb/GlebParser.interp"
-  "/home/tima/Gleb/GlebParserVisitor.h" "/home/tima/Gleb/GlebParser.interp"
+  "/Users/glebandreev/Downloads/GlebIapis/GlebLexer.cpp" "/Users/glebandreev/Downloads/GlebIapis/GlebLexer.interp"
+  "/Users/glebandreev/Downloads/GlebIapis/GlebLexer.h" "/Users/glebandreev/Downloads/GlebIapis/GlebLexer.interp"
+  "/Users/glebandreev/Downloads/GlebIapis/GlebLexer.tokens" "/Users/glebandreev/Downloads/GlebIapis/GlebLexer.interp"
+  "/Users/glebandreev/Downloads/GlebIapis/GlebParser.cpp" "/Users/glebandreev/Downloads/GlebIapis/GlebParser.interp"
+  "/Users/glebandreev/Downloads/GlebIapis/GlebParser.h" "/Users/glebandreev/Downloads/GlebIapis/GlebParser.interp"
+  "/Users/glebandreev/Downloads/GlebIapis/GlebParser.tokens" "/Users/glebandreev/Downloads/GlebIapis/GlebParser.interp"
+  "/Users/glebandreev/Downloads/GlebIapis/GlebParserBaseVisitor.cpp" "/Users/glebandreev/Downloads/GlebIapis/GlebParser.interp"
+  "/Users/glebandreev/Downloads/GlebIapis/GlebParserBaseVisitor.h" "/Users/glebandreev/Downloads/GlebIapis/GlebParser.interp"
+  "/Users/glebandreev/Downloads/GlebIapis/GlebParserVisitor.cpp" "/Users/glebandreev/Downloads/GlebIapis/GlebParser.interp"
+  "/Users/glebandreev/Downloads/GlebIapis/GlebParserVisitor.h" "/Users/glebandreev/Downloads/GlebIapis/GlebParser.interp"
   )
 
 

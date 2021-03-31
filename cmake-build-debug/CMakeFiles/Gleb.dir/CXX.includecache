@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/tima/Gleb/treeFiles/Element.h
+/Users/glebandreev/Downloads/GlebIapis/treeFiles/CreateOperation.cpp
+CreateOperation.h
+/Users/glebandreev/Downloads/GlebIapis/treeFiles/CreateOperation.h
+
+/Users/glebandreev/Downloads/GlebIapis/treeFiles/CreateOperation.h
+MainOperation.h
+/Users/glebandreev/Downloads/GlebIapis/treeFiles/MainOperation.h
+
+/Users/glebandreev/Downloads/GlebIapis/treeFiles/Element.h
 vector
 -
 fstream
@@ -16,15 +24,7 @@ iostream
 map
 -
 
-/home/tima/Gleb/treeFiles/MainOperation.h
+/Users/glebandreev/Downloads/GlebIapis/treeFiles/MainOperation.h
 Element.h
-/home/tima/Gleb/treeFiles/Element.h
-
-/home/tima/Gleb/treeFiles/PowOperation.cpp
-PowOperation.h
-/home/tima/Gleb/treeFiles/PowOperation.h
-
-/home/tima/Gleb/treeFiles/PowOperation.h
-MainOperation.h
-/home/tima/Gleb/treeFiles/MainOperation.h
+/Users/glebandreev/Downloads/GlebIapis/treeFiles/Element.h
 

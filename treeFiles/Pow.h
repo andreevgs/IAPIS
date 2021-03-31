@@ -1,5 +1,5 @@
 //
-// Created by tima on 26.03.21.
+// Created by gleb on 26.03.21.
 //
 
 #ifndef GLEB_POW_H

@@ -1,5 +1,5 @@
 //
-// Created by tima on 4.03.21.
+// Created by gleb on 4.03.21.
 //
 
 #ifndef LANG_HELLOVISITOR_H

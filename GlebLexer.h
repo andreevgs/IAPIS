@@ -1,6 +1,5 @@
-/*Author : Tsimofei Kinevich, group : 821703*/
 
-// Generated from /home/tima/Gleb/GlebLexer.g4 by ANTLR 4.9.1
+// Generated from /home/Gleb/GlebLexer.g4 by ANTLR 4.9.1
 
 #pragma once
 
