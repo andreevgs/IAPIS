@@ -1,4 +1,4 @@
-# IAPIS
+# IAPIS My Compiler
 ### Installing, building and running
 
 Firts of all you need to install Clion.
